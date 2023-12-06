@@ -15,6 +15,3 @@ a. Declaring the class variables as private so that they are inaccessible from o
 the scope of the class.
 b. Designing getter and setter methods for the class and using them accordingly. 
 The presence of getter and setter methods in a class define what type of class it is.
-
-
-
