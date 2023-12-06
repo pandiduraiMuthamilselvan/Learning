@@ -1,0 +1,32 @@
+POLYMORPHISM
+-------------------------
+Completing the same task in many ways.
+poly--many
+morphism---forms
+
+TYPES
+----------
+Method Overloading
+Method Overriding
+
+Method Overloading(compile time polymorphism/static binding):
+-------------------------------------------------------------------------------
+It is a concept that allows to declare multiple methods with same name but different
+method signature(parameters,arguments) in the same class.
+
+    Same class
+    Same method
+    Different arguments(combination of datatypes and variable name)(byte)
+
+Arguments depends on datatype
+   ,,                ,,               datatype count(int,byte,short,long)(1)
+   ,,                ,,               datatype order(int string)(string int)
+
+Method Overriding(runtime polymorphism/dynamic binding):
+----------------------------------------------------------------------------
+If I am not satisfied with my business logic I will call that method in my sub Class.
+   
+    Different class
+    Same method
+    Same arguments
+    we use Inheritance concept in method overriding

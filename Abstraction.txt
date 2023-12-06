@@ -1,0 +1,30 @@
+Abstraction
+---------------
+Hiding the implementation part or method is called as Abstraction.
+
+Types of Abstraction
+--------------------------
+Partial Abstraction
+Fully Abstraction
+
+Partial Abstraction(Abstract class)
+------------------------------------------
+Contains both abstract and non abstract methods
+We can't create objects
+Contains Keywords extends 
+                                -----------
+
+Fully Abstraction(Interface)
+----------------------------------
+Contains only the abstract methods
+We can't create object
+Contains keywords implements 
+                               ---------------
+
+Abstract
+-----------
+The method should not contain any business logic.
+
+Non-Abstract
+-----------------
+The method which contain business logic.   

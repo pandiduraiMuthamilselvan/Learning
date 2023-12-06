@@ -1,0 +1,60 @@
+Inheritance:
+---------------
+we can access one class property into another class by using extend keywords.
+
+Advantage of inheritance:
+-------------------------------
+1)reusable code purpose
+2)memory waste is low
+
+Types of Inheritance:
+--------------------------
+1)single Inheritance
+2)Multiple Inheritance
+3)Multilevel Inheritance
+4)Hierarchal Inheritance
+5)Hybrid Inheritance
+
+Singe Inheritance:
+-----------------------
+combination of one parent class and one child class
+
+Multiple Inheritance:
+--------------------------
+more than one parent class accessing the child class paralley at a time.
+
+Multilevel Inheritance:
+----------------------------
+more than one parent class accessing the child class in tree level structure.
+
+Hierarchal Inheritance:
+-----------------------------
+combination of one parent class and more than one child class.
+
+Hybrid Inheritance:
+------------------------
+//combination of single and multiple inheritance.//
+combination of hierarchal and multilevel inheritance.
+
+
+syntax
+--------
+Access specifier       child class        extends       parent class
+(public or private)    (sub class)    (keyword)         (super class)
+
+
+Multiple Inheritance
+--------------------------
+can't work in java by using extends keyword due to syntax error and priority problem.
+syntax error
+---------------
+we should not use comma after extends,
+priority problem
+--------------------
+compiler will get confused to call which method is first
+
+to overcome multiple inheritance by using interface concepts
+
+
+childclass->access the property
+parentclass->getting the property
